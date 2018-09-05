@@ -1,0 +1,40 @@
+{
+  "name": "surround-string",
+  "version": "1.0.0",
+  "description": "Adds a prefix and a suffix to a string — but only if the string isn’t empty.",
+  "keywords": [
+    "prepend",
+    "prefix",
+    "append",
+    "suffix",
+    "surround",
+    "wrap",
+    "string"
+  ],
+  "author": {
+    "name": "Fr. John Lamansky",
+    "url": "lamansky.com"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/lamansky/surround-string",
+  "repository": "lamansky/surround-string",
+  "main": "index.js",
+  "files": [],
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "eslint-config-lamansky": "^1.0.0",
+    "mocha": "^5.2.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "eslintConfig": {
+    "extends": "lamansky",
+    "env": {
+      "mocha": true
+    }
+  }
+}
